@@ -12,7 +12,7 @@
 
 ## Usage
 
-Add the following to your `Cargo.toml` file:
+Add the following to the `[dependencies]` section of your `Cargo.toml` file:
 
 ```toml
 n2 = "0.1.0"
