@@ -1,6 +1,6 @@
 [package]
 name = "n2"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Søren Mortensen <soren@neros.dev>"]
 edition = "2018"
 description = "Neural network library implementing a feedforward, backpropagation network"
