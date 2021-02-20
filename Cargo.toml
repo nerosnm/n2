@@ -1,0 +1,13 @@
+[package]
+name = "n2"
+version = "0.0.0"
+authors = ["Søren Mortensen <soren@neros.dev>"]
+edition = "2018"
+description = "Neural network library implementing a feedforward, backpropagation network"
+homepage = "https://github.com/nerosnm/n2"
+repository = "https://github.com/nerosnm/n2"
+license = "MIT OR Apache-2.0"
+keywords = ["neural-network", "machine-learning", "backpropagation", "ann", "nn"]
+categories = ["mathematics", "simulation"]
+
+[dependencies]
