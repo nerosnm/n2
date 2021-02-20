@@ -1,7 +1,10 @@
 # n2
 
+[![CI]][workflow]
 [![Maintenance]][repo]
 
+[CI]: https://github.com/nerosnm/n2/actions/workflows/ci.yml/badge.svg?branch=master
+[workflow]: https://github.com/nerosnm/n2/actions/workflows/ci.yml
 [Maintenance]: https://img.shields.io/badge/maintenance-actively--developed-brightgreen.svg
 [repo]: https://github.com/nerosnm/n2
 
