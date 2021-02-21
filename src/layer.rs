@@ -1,5 +1,7 @@
 //! Layers of units in a network.
 
+use std::default::Default;
+
 use crate::unit::Unit;
 
 /// A layer in a neural network, containing a positive, nonzero number of units
@@ -15,5 +17,11 @@ impl<const N: usize> Layer<N> {
         assert!(N > 0, "each layer must contain at least 1 unit");
 
         Self { units: [Unit; N] }
+    }
+}
+
+impl<const N: usize> Default for Layer<N> {
+    fn default() -> Self {
+        Self::new()
     }
 }
